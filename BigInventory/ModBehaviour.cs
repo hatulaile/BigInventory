@@ -1,4 +1,5 @@
 using HarmonyLib;
+using ItemStatsSystem;
 
 namespace BigInventory
 {
@@ -7,6 +8,7 @@ namespace BigInventory
         public const float INVENTORY_CAPACITY_MULTIPLIER = 2f;
         public const float INVENTORY_WEIGHT_MULTIPLIER = 1f;
         public const int PLAYER_STORAGE_MULTIPLIER = 3;
+        public const int MAX_STACK_MULTIPLIER = 3;
 
 
         private Harmony? _harmony;

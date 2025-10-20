@@ -574,6 +574,7 @@
     <ItemGroup>
         <Compile Include="ModBehaviour.cs" />
         <Compile Include="Patches\CharacterMainControlPatches.cs" />
+        <Compile Include="Patches\ItemPatches.cs" />
         <Compile Include="Patches\PlayerStoragePatches.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
